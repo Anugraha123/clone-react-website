@@ -25,7 +25,7 @@ const Component = () => {
                     <Box
                       component="span"
                       color="primary.main"
-                      display={{ md: 'inline-block' }}
+                      display='inline-block'
                     >
                       <Typewriter
                         options={{
