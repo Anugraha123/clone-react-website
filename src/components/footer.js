@@ -14,10 +14,10 @@ const Spacing = () => <>&nbsp;&nbsp; &nbsp;&nbsp;</>;
 const Component = () => {
   return (
     <>
-      <Container maxWidth="md">
+      <Container maxWidth="lg">
         <Box
           py={{ xs: "32px", md: "64px" }}
-          px={{ xs: 0, md: 16 }}
+          px={{ xs: 0, md: 0 }}
           textAlign="center"
         >
           <Typography color="textSecondary" paragraph>
@@ -28,7 +28,7 @@ const Component = () => {
             <b>Get started with Webbee today</b>
           </Typography>
 
-          <Typography color="textSecondary">
+          <Typography color="textSecondary" variant='h6'>
             Build a beautiful, modern website with flexible, fully customizable,
             atomic Material-UI components.
           </Typography>

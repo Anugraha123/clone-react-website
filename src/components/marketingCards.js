@@ -52,7 +52,7 @@ const Component = () => {
   return (
     <>
       <Container maxWidth="lg">
-        <Box py={{ xs: "32px", md: "64px" }} px={{ xs: 0, md: 16 }}>
+        <Box pb={{ xs: "32px", md: "64px" }} px={{ xs: 0, md: '16px' }}>
           <Grid container spacing={4}>
             <Grid item xs={12} md={4}>
               <CommonBox>

@@ -120,7 +120,7 @@ const Component = () => {
   return (
     <Box bgcolor="background.default">
       <Container maxWidth="lg">
-        <Box py={{ xs: "32px", md: "64px" }} px={{ xs: 0, md: 16 }}>
+        <Box py={{ xs: "32px", md: "64px" }} px={{ xs: 0, md: '16px' }}>
           <Box textAlign="center">
             <Typography color="textSecondary" paragraph>
               DEMO PAGES

@@ -43,7 +43,7 @@ const Component = () => {
           </Box>
 
           <Box mt="24px">
-            <Builders width="70%" />
+            <Builders width='50%' />
           </Box>
         </Box>
       </Container>

@@ -19,7 +19,7 @@ const Component = () => {
 		<>
 
 		<Container maxWidth='lg'>
-		<Box py={{xs: '32px', md: '64px'}} px={{xs: 0, md: 16}}>
+		<Box py={{xs: '32px', md: '64px'}} px={{xs: 0, md: '16px'}}>
 				<Grid container spacing={2}>
 					<Grid item xs={12} md={4}>
 						<Box textAlign='center'>
