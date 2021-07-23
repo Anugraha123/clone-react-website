@@ -20,7 +20,7 @@ const CommonBox = ({children}) => {
 
 const CircleIcon = () => {
 	return (
-		<Box mb='16px' height='50px' width='50px' borderRadius='100%' bgcolor='primary.main' color='primary.contrastText' display='inline-flex' alignItems='center' justifyContent='center'>
+		<Box mb='16px' height='50px' width='50px' borderRadius='100%' bgcolor='primary.main' color='background.paper' display='inline-flex' alignItems='center' justifyContent='center'>
 			<FavoriteBorderOutlinedIcon color='inherit' fontSize='small' />
 		</Box>
 	)
