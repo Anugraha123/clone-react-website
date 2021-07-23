@@ -11,7 +11,7 @@ import { ReactComponent as Logo } from "../assets/icons/icon-logo.svg";
 
 const Spacing = () => <>&nbsp;&nbsp; &nbsp;&nbsp;</>;
 
-export default () => {
+const Component = () => {
   return (
     <>
       <Container maxWidth="md">
@@ -93,3 +93,4 @@ export default () => {
     </>
   );
 };
+export default Component;

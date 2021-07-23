@@ -44,7 +44,7 @@ function HideOnScroll(props) {
 	);
   }
 
-export default () => {
+const Component = () => {
 	const {toggleTheme, darkMode, theme} = useContext(ThemeWrapper);
 	const classes = useStyles({darkMode});
 
@@ -61,8 +61,7 @@ export default () => {
 									<IconButton color='inherit'>
 										<MenuIcon />
 									</IconButton>
-
-									<Spacing />
+									&nbsp;
 
 									<Logo height='30px' width='30px' />
 								</Box>
@@ -107,3 +106,4 @@ export default () => {
 		</>
 	)
 }
+export default Component;

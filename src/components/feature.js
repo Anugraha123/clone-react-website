@@ -15,7 +15,7 @@ const CircleIcon = ({children}) => {
 	)
 }
 
-export default () => {
+const Component = () => {
 	return (
 		<>
 
@@ -75,3 +75,5 @@ export default () => {
 		</>
 	)
 }
+
+export default Component

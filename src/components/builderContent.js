@@ -8,7 +8,7 @@ import Box from '@material-ui/core/Box';
 
 import {ReactComponent as Builders} from '../assets/vectors/vector-builders.svg'
 
-export default () => {
+const Component = () => {
 	return (
 		<>
 
@@ -44,3 +44,5 @@ An experience you'd expect from a design system.
 		</>
 	)
 }
+
+export default Component;

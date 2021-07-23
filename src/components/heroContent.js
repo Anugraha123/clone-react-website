@@ -1,4 +1,4 @@
-import React, {useContext} from 'react'
+import React from 'react'
 import Container from '@material-ui/core/Container';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
@@ -11,7 +11,7 @@ import Typewriter from 'typewriter-effect';
 
 import {ReactComponent as Rocket} from '../assets/vectors/vector-rocket.svg'
 
-export default () => {
+const Component = () => {
 	return (
 		<>
 
@@ -64,3 +64,5 @@ export default () => {
 		</>
 	)
 }
+
+export default Component;

@@ -117,7 +117,7 @@ const data = [
 	},
 ]
 
-export default () => {
+const Component = () => {
   return (
     <Box bgcolor="background.default">
       <Container maxWidth="lg">
@@ -169,3 +169,4 @@ export default () => {
     </Box>
   );
 };
+export default Component;

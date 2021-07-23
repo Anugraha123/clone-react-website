@@ -27,7 +27,7 @@ const CircleIcon = () => {
 }
 
 
-export default () => {
+const Component = () => {
 
 
 	return (
@@ -124,3 +124,5 @@ export default () => {
 		</>
 	)
 }
+
+export default Component;
