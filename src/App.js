@@ -78,15 +78,7 @@ class App extends React.Component {
   toggleTheme = () => {
     this.setState({
       darkMode: !this.state.darkMode,
-    }, () => {
-      const DOM = document.querySelector('body');
-
-      if (this.state.darkMode) {
-        DOM.classList.add('darkMode')
-      } else {
-        DOM.classList.remove('darkMode')
-      }
-    });
+    })
   };
 
   render() {

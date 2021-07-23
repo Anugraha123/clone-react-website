@@ -13,7 +13,7 @@ const Spacing = () => <>&nbsp;&nbsp; &nbsp;&nbsp;</>;
 
 const Component = () => {
   return (
-    <>
+    <Box bgcolor='background.paper' color='text.primary'>
       <Container maxWidth="lg">
         <Box
           py={{ xs: "32px", md: "64px" }}
@@ -99,7 +99,7 @@ const Component = () => {
           </Typography>
         </Box>
       </Container>
-    </>
+    </Box>
   );
 };
 export default Component;

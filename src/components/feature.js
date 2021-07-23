@@ -1,78 +1,78 @@
-import React from 'react'
-import Container from '@material-ui/core/Container';
-import Typography from '@material-ui/core/Typography';
-import CodeOutlinedIcon from '@material-ui/icons/CodeOutlined';
-import Box from '@material-ui/core/Box';
+import React from "react";
+import Container from "@material-ui/core/Container";
+import Typography from "@material-ui/core/Typography";
+import CodeOutlinedIcon from "@material-ui/icons/CodeOutlined";
+import Box from "@material-ui/core/Box";
 
-import Grid from '@material-ui/core/Grid';
+import Grid from "@material-ui/core/Grid";
 
 const CircleIcon = () => {
-	return (
-		<Box m='20px' height='60px' width='60px' borderRadius='100%' bgcolor='primary.light' color='primary.main' display='inline-flex' alignItems='center' justifyContent='center'>
-			<CodeOutlinedIcon color='inherit' fontSize='small' />
-		</Box>
-	)
-}
+  return (
+    <Box
+      m="20px"
+      height="60px"
+      width="60px"
+      borderRadius="100%"
+      bgcolor="primary.light"
+      color="primary.main"
+      display="inline-flex"
+      alignItems="center"
+      justifyContent="center"
+    >
+      <CodeOutlinedIcon color="inherit" fontSize="small" />
+    </Box>
+  );
+};
 
 const Component = () => {
-	return (
-		<>
+  return (
+    <Box bgcolor="background.paper" color='text.primary'>
+      <Container maxWidth="lg">
+        <Box py={{ xs: "32px", md: "64px" }} px={{ xs: 0, md: "16px" }}>
+          <Grid container spacing={2}>
+            <Grid item xs={12} md={4}>
+              <Box textAlign="center">
+                <CircleIcon />
 
-		<Container maxWidth='lg'>
-		<Box py={{xs: '32px', md: '64px'}} px={{xs: 0, md: '16px'}}>
-				<Grid container spacing={2}>
-					<Grid item xs={12} md={4}>
-						<Box textAlign='center'>
-							<CircleIcon />
+                <Typography variant="h6">Built for developers</Typography>
 
-							<Typography variant='h6'>
-								Built for developers
-							</Typography>
+                <Typography variant="subtitle1" color="textSecondary">
+                  Webbee is built to make your life easier. Variables, build
+                  tooling, documentation, and reusable components.
+                </Typography>
+              </Box>
+            </Grid>
 
-							<Typography variant='subtitle1' color='textSecondary'>
-							Webbee is built to make your life easier. Variables, build tooling, documentation, and reusable components.
+            <Grid item xs={12} md={4}>
+              <Box textAlign="center">
+                <CircleIcon />
 
+                <Typography variant="h6">Built for developers</Typography>
 
-							</Typography>
-						</Box>
-					</Grid>
+                <Typography variant="subtitle1" color="textSecondary">
+                  Webbee is built to make your life easier. Variables, build
+                  tooling, documentation, and reusable components.
+                </Typography>
+              </Box>
+            </Grid>
 
-					<Grid item xs={12} md={4}>
-						<Box textAlign='center'>
-							<CircleIcon />
+            <Grid item xs={12} md={4}>
+              <Box textAlign="center">
+                <CircleIcon />
 
-							<Typography variant='h6'>
-								Built for developers
-							</Typography>
+                <Typography variant="h6">Built for developers</Typography>
 
-							<Typography variant='subtitle1' color='textSecondary'>
-							Webbee is built to make your life easier. Variables, build tooling, documentation, and reusable components.
+                <Typography variant="subtitle1" color="textSecondary">
+                  Webbee is built to make your life easier. Variables, build
+                  tooling, documentation, and reusable components.
+                </Typography>
+              </Box>
+            </Grid>
+          </Grid>
+        </Box>
+      </Container>
+    </Box>
+  );
+};
 
-
-							</Typography>
-						</Box>
-					</Grid>
-
-					<Grid item xs={12} md={4}>
-						<Box textAlign='center'>
-							<CircleIcon />
-
-							<Typography variant='h6'>
-								Built for developers
-							</Typography>
-
-							<Typography variant='subtitle1' color='textSecondary'>
-							Webbee is built to make your life easier. Variables, build tooling, documentation, and reusable components.
-
-
-							</Typography>
-						</Box>
-					</Grid>
-				</Grid>
-			</Box>
-		</Container>
-		</>
-	)
-}
-
-export default Component
+export default Component;

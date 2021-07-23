@@ -13,7 +13,7 @@ import { ReactComponent as Rocket } from "../assets/vectors/vector-rocket.svg";
 
 const Component = () => {
   return (
-    <Box bgcolor='background.default'>
+    <Box bgcolor='background.default' color='text.primary'>
       <Container maxWidth="lg">
         <Box py={{xs: '32px', md: '64px'}}>
           <Grid container alignItems="center">
@@ -65,7 +65,7 @@ const Component = () => {
             </Grid>
 
             <Grid item xs={12} lg={6}>
-              <Box m='0 auto' maxWidth={{xs: '500px', md: 'unset'}} py={{xs: '32px', lg: 0}} textAlign="center">
+              <Box m='0 auto' maxWidth={{xs: '500px', md: 'unset'}} py={{xs: '32px', lg: 0}} px='16px' textAlign="center">
                 <Rocket />
               </Box>
             </Grid>

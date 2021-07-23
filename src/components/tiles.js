@@ -118,7 +118,7 @@ const data = [
 
 const Component = () => {
   return (
-    <Box bgcolor="background.default">
+    <Box bgcolor="background.default" color='text.primary'>
       <Container maxWidth="lg">
         <Box py={{ xs: "32px", md: "64px" }} px={{ xs: 0, md: '16px' }}>
           <Box textAlign="center">

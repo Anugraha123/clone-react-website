@@ -50,7 +50,7 @@ const CircleIcon = () => {
 
 const Component = () => {
   return (
-    <>
+	<Box bgcolor='background.paper' color='text.primary'>
       <Container maxWidth="lg">
         <Box pb={{ xs: "32px", md: "64px" }} px={{ xs: 0, md: '16px' }}>
           <Grid container spacing={4}>
@@ -134,7 +134,7 @@ const Component = () => {
           </Grid>
         </Box>
       </Container>
-    </>
+    </Box>
   );
 };
 

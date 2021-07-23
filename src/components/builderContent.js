@@ -10,7 +10,7 @@ import { ReactComponent as Builders } from "../assets/vectors/vector-builders.sv
 
 const Component = () => {
   return (
-    <>
+    <Box bgcolor='background.paper' color='text.primary'>
       <Container maxWidth="lg">
         <Box
           py={{ xs: "32px", md: "64px" }}
@@ -47,7 +47,7 @@ const Component = () => {
           </Box>
         </Box>
       </Container>
-    </>
+    </Box>
   );
 };
 
