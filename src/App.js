@@ -25,20 +25,24 @@ class App extends React.Component {
     return {
       palette: {
         primary: {
-          light: "#e5f7ed",
+          light: 'rgba(0, 171, 85, 0.1)',
           main: "#00ab55",
         },
 
         background: {
           default: "#f7f9fc",
         },
+
+        text: {
+          primary: 'rgb(45, 55, 72)'
+        }
       },
 
       typography: {
         fontFamily: "'Inter', sans-serif",
         h3: {
-          fontSize: "2.8rem",
-        },
+          fontSize: "3.75rem"
+        }
       },
     };
   }
@@ -48,7 +52,7 @@ class App extends React.Component {
       palette: {
         type: 'dark',
         primary: {
-          light: "#e5f7ed",
+          light: 'rgba(0, 171, 85, 0.1)',
           main: "#00ab55",
         },
 
@@ -65,8 +69,8 @@ class App extends React.Component {
       typography: {
         fontFamily: "'Inter', sans-serif",
         h3: {
-          fontSize: "2.8rem",
-        },
+          fontSize: "3.75rem"
+        }
       },
     };
   }

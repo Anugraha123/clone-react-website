@@ -15,20 +15,24 @@ const Component = () => {
   return (
     <>
       <Container maxWidth="md">
-        <Box py="64px" px="16px" textAlign="center">
+        <Box
+          py={{ xs: "32px", md: "64px" }}
+          px={{ xs: 0, md: 16 }}
+          textAlign="center"
+        >
           <Typography color="textSecondary" paragraph>
             GET STARTED
           </Typography>
 
-          <Typography variant="h3" color='textPrimary' paragraph>
+          <Typography variant="h3" color="textPrimary" paragraph>
             <b>Get started with Webbee today</b>
           </Typography>
 
-          <Typography color="textSecondary" paragraph>
+          <Typography color="textSecondary">
             Build a beautiful, modern website with flexible, fully customizable,
             atomic Material-UI components.
           </Typography>
-
+          <br />
           <Button
             endIcon={<ArrowForwardOutlinedIcon />}
             color="primary"
@@ -43,8 +47,14 @@ const Component = () => {
 
       <Container maxWidth="lg">
         <Box py="32px" px="16px" textAlign="center">
-          <Box display="flex" justifyContent="space-between" mb='16px'>
-            <Box display="flex" alignItems="center">
+          <Box
+            display="flex"
+            flexDirection={{ xs: "column", md: "row" }}
+            alignItems="center"
+            justifyContent="space-between"
+            mb="16px"
+          >
+            <Box display="flex" alignItems="center" m={{ xs: 2 }}>
               <Logo height="30px" width="30px" />
             </Box>
 
@@ -52,16 +62,19 @@ const Component = () => {
               display="flex"
               flex="1 auto"
               justifyContent="flex-end"
-              alignItems="center"
-              gap="5px"
+              alignItems={{ md: "center" }}
+              flexDirection={{ xs: "column", sm: "row" }}
+              style={{
+                gap: "16px",
+              }}
             >
-              <Typography variant="body2">Home</Typography>
+              <Box display="flex" alignItems="center">
+                <Typography variant="body2">Home</Typography>
 
-              <Spacing />
+                <Spacing />
 
-              <Typography variant="body2">Documentation</Typography>
-
-              <Spacing />
+                <Typography variant="body2">Documentation</Typography>
+              </Box>
 
               <Button color="primary" variant="outlined" size="small">
                 Purchase now
@@ -78,11 +91,7 @@ const Component = () => {
             © Webbee. 2021, Maccarian. All rights reserved
           </Typography>
 
-          <Typography
-            variant="body2"
-            color="textSecondary"
-            align="center"
-          >
+          <Typography variant="body2" color="textSecondary" align="center">
             When you visit or interact with our sites, services or tools, we or
             our authorised service providers may use cookies for storing
             information to help provide you with a better, faster and safer

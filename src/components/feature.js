@@ -2,12 +2,11 @@ import React from 'react'
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import CodeOutlinedIcon from '@material-ui/icons/CodeOutlined';
-
 import Box from '@material-ui/core/Box';
 
 import Grid from '@material-ui/core/Grid';
 
-const CircleIcon = ({children}) => {
+const CircleIcon = () => {
 	return (
 		<Box m='20px' height='60px' width='60px' borderRadius='100%' bgcolor='primary.light' color='primary.main' display='inline-flex' alignItems='center' justifyContent='center'>
 			<CodeOutlinedIcon color='inherit' fontSize='small' />
@@ -20,7 +19,7 @@ const Component = () => {
 		<>
 
 		<Container maxWidth='lg'>
-			<Box py='64px' px='16px'>
+		<Box py={{xs: '32px', md: '64px'}} px={{xs: 0, md: 16}}>
 				<Grid container spacing={2}>
 					<Grid item xs={12} md={4}>
 						<Box textAlign='center'>
