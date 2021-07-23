@@ -32,7 +32,7 @@ const Component = () => {
                           strings: ["success.", "startup.", "future."],
                           autoStart: true,
                           loop: true,
-                          delay: 30,
+                          delay: 50,
                           deleteSpeed: 0,
                         }}
                       />
